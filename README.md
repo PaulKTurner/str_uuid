@@ -7,6 +7,9 @@ Yes, this could be written in each server. Yes, I am lazy enough to publish this
 ```python
 from str_uuid import str_uuid4
 its_a_string: str = str_uuid4()
+result = foo_function(
+    factory_parameter_that_requires_str=str_uuid4
+)
 ```
 
 Thanks for reading.
