@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "str-uuid"
+version = "0.1.0"
+description = ""
+authors = ["PaulKTurner <paul@handshake.fyi>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
