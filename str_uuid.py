@@ -6,17 +6,17 @@ from uuid import (
 )
 
 
-def str_uuid1(input: str) -> str:
-    return str(uuid1(input))
+def str_uuid1() -> str:
+    return uuid1().hex
 
 
-def str_uuid3(input: str) -> str:
-    return str(uuid3(input))
+def str_uuid3() -> str:
+    return uuid3().hex
 
 
-def str_uuid4(input: str) -> str:
-    return str(uuid4(input))
+def str_uuid4() -> str:
+    return uuid4().hex
 
 
-def str_uuid5(input: str) -> str:
-    return str(uuid5(input))
+def str_uuid5() -> str:
+    return uuid5().hex
