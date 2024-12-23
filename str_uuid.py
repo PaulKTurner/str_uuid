@@ -1,3 +1,4 @@
+import uuid
 from uuid import (
     uuid1,
     uuid3,
@@ -20,3 +21,11 @@ def str_uuid4() -> str:
 
 def str_uuid5() -> str:
     return uuid5().hex
+
+
+def is_valid_uuid(val):
+    try:
+        uuid.UUID(str(val))
+        return True
+    except ValueError:
+        return False
